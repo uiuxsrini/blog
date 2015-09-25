@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Remote Lab</title>
+    <description>We&#39;re on a mission to make DevOps hassle-free.</description>
+    <link>http://theremotelab.me/</link>
+    <atom:link href="http://theremotelab.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 26 Sep 2015 02:37:02 +0530</pubDate>
+    <lastBuildDate>Sat, 26 Sep 2015 02:37:02 +0530</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>DevOps is For Life, Not Just For Techies</title>
+        <description>&lt;p&gt;DevOps is a philosophy; it’s a way of life that you can use to transform your business methodology, improve your customer communications and revolutionise your results.&lt;/p&gt;
+
+&lt;p&gt;We’ve collated some fundamental DevOps principles that you can apply to all your business practises to streamline processes, revolutionise thinking and improve internal and external communications: Keep CALMS and use DevOps.&lt;/p&gt;
+
+&lt;p&gt;Culture – Let yourself Fail&lt;/p&gt;
+
+&lt;p&gt;“The one who falls and gets up is stronger than the one who never fell.” It may be a cliché, but we really do learn from our mistakes. Don’t be afraid to try things, but learn to fail safely and make sure you learn from things that don’t work out.&lt;/p&gt;
+
+&lt;p&gt;Constant testing, re-evaluation and development is the only way to keep up with the modern world and this can be applied to software development, marketing strategies, personal goals – anything!&lt;/p&gt;
+
+&lt;p&gt;Automation – Focus on your business&lt;/p&gt;
+
+&lt;p&gt;Modern technology allows you to automate loads of areas of your life to free up your time – without it, juggling work, family, friends and the other components of contemporary culture would be impossible.&lt;/p&gt;
+
+&lt;p&gt;Automating systems and processes at work not only eliminates the risk of human error, but it frees up time to focus on the running of your business. Without having to spend man-power on monitoring, testing and updating your software you can focus more time into making your business the best it can be. Automation also means that your release processes are consistent, reliable and specific to your needs.&lt;/p&gt;
+
+&lt;p&gt;Lean – Cut down on waste&lt;/p&gt;
+
+&lt;p&gt;Originally devised and initiated by Toyota ‘Lean’ is a way of working that improves flow and eliminates waste: making obvious what adds value by reducing everything else. Implementing a Lean system in your processes means discarding superfluous, ‘wasteful’ activity and focusing on efficiently achieving your end result. These processes also reduce costs and production time as well as improving productivity.&lt;/p&gt;
+
+&lt;p&gt;This is ideal for efficiency in and out of the work environment – whether your new year’s resolution is to be more productive in your spare time, to recycle more or to get fit, try applying Lean principles to your day-to-day goals!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2015 15:55:11 +0530</pubDate>
+        <link>http://theremotelab.me/devops-is-for-life-not-just-for-techies</link>
+        <guid isPermaLink="true">http://theremotelab.me/devops-is-for-life-not-just-for-techies</guid>
+        
+        
+        <category>conferences</category>
+        
+      </item>
+    
+      <item>
+        <title>What’s new at DevOps Enterprise Summit 2015</title>
+        <description>&lt;p&gt;We’re really excited about the programming we have planned for the DevOps Enterprise Summit 2015. Here are some things you may have expected: We will bring back more of your favorite presenters Tell new chapters in stories of transformation and acceleration Introduce an exciting new set of top experts, case studies, and practitioner-led research We also have a really unexpected surprise&lt;/p&gt;
+
+&lt;p&gt;During last year’s event, we established that many large organizations were already on the path to adopting DevOps practices, and our speakers shared their struggles from the stage.&lt;/p&gt;
+
+&lt;p&gt;After the event, we wanted to learn more about what the biggest roadblocks were for our attendees in their own companies, so what did we do?&lt;/p&gt;
+
+&lt;p&gt;We sent a post-conference survey, asking last year’s attendees to tell us their biggest challenges as they returned back to their companies.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 26 Sep 2015 15:15:36 +0530</pubDate>
+        <link>http://theremotelab.me/what's-new-at-DevOps</link>
+        <guid isPermaLink="true">http://theremotelab.me/what's-new-at-DevOps</guid>
+        
+        
+        <category>conferences</category>
+        
+      </item>
+    
+      <item>
+        <title>DevOps and Automating The Repayment Of Technical Debet</title>
+        <description>&lt;p&gt;One of the common things we find in Enterprise organisations looking to move to a DevOps model is high levels of technical debt.&lt;/p&gt;
+
+&lt;p&gt;To be more accurate, they are caught in the “vicious cycle of technical debt” to the point that trying to ship anything in a rapid, agile way is nearly impossible. It’s the Greek Debt Crisis level of technical debt.&lt;/p&gt;
+
+&lt;p&gt;In many cases layers and layers of process and management have been added into the software development lifecycle in order to try and fix the symptoms of the problem (low quality releases, bugs in production, unstable environments, poor performance etc) but they are just Band-Aids on the underlying issues.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 26 Sep 2015 15:15:36 +0530</pubDate>
+        <link>http://theremotelab.me/Devops-and-Automating</link>
+        <guid isPermaLink="true">http://theremotelab.me/Devops-and-Automating</guid>
+        
+        
+        <category>conferences</category>
+        
+      </item>
+    
+      <item>
+        <title>DevOps and The Digital Supply Chain</title>
+        <description>&lt;p&gt;What is the “Digital Supply Chain” and why is it important to your organisation and to DevOps as a practice?&lt;/p&gt;
+
+&lt;p&gt;The concept of the “Digital Supply Chain” is a different way of looking at the SDLC and the Continuous Delivery “pipeline” that we feel makes it easier for traditional organisations to understand the criticality of software delivery (and by extension DevOps) in the modern world.&lt;/p&gt;
+
+&lt;p&gt;Any organisation that deals with physical goods understands the concept of the supply chain. They are intimately familiar with ideas like supply chain management, supply chain optimisation and, most importantly, they understand the economics of inventory in the supply chain e.g the carrying cost of inventory.&lt;/p&gt;
+
+&lt;p&gt;So what is the “Digital Supply Chain”?&lt;/p&gt;
+
+&lt;p&gt;The current definitions of the digital supply chain are anchored in the “New Media” sector and focus on digital assets like music, video etc&lt;/p&gt;
+
+&lt;p&gt;“The “digital supply chain” is a “new media” term which encompasses the process of the delivery of digital media, be it music or video, by electronic means, from the point of origin (content provider) to destination (consumer).” – Wikipedia&lt;/p&gt;
+</description>
+        <pubDate>Thu, 24 Sep 2015 12:45:37 +0530</pubDate>
+        <link>http://theremotelab.me/devops-and-the-digital-supply-chain</link>
+        <guid isPermaLink="true">http://theremotelab.me/devops-and-the-digital-supply-chain</guid>
+        
+        
+        <category>conferences</category>
+        
+      </item>
+    
+      <item>
+        <title>How Do Databases Fit Into Devops ?</title>
+        <description>&lt;p&gt;“How do DBAs fit into a DevOps world?”&lt;/p&gt;
+
+&lt;p&gt;If we look at how the roles and responsibilities break down, it looks like DBAs are simply Ops specialists. Does that mean that database developers and DBAs should be blended in a single DBDevOps team? Having two flavours of DevOps team running side-by-side on the same overall application feels like a poor compromise, but are databases special enough to warrant it?&lt;/p&gt;
+
+&lt;p&gt;Alternatively, does this mean that the DBA dissolves into just another Ops facet of the overall team? Given the amount of specialist training and knowledge we so often see invested in DBAs, it’s hard to imagine how a team could be high-performing without some degree of specialization when it comes to managing data. This could be the straw that breaks the Full-Stack Engineers back, or it could be that you can actually get a very long way before you have to dip into the skills of a true specialist. I’m sure that, like so many questions, the answer is “It depends”&lt;/p&gt;
+
+&lt;p&gt;Either way, the fact that we’re even talking about Database Lifecycle Management (and uttering sentences which include both “database” and “DevOps”) suggests that software engineering as a whole is maturing at the pace of Moore’s Law, and starting to embrace the ideas that were obvious to W. Deming. Not only are we tackling these questions thoughtfully, but we’re also being more aware of the practices that have emerged in software engineering. As a result of that maturity, we’re also starting to see tools emerging which are actually fit to be used in a DevOps environment. In the case of databases, part of that is about treating them as stateful artifacts, and I particularly like Redgate’s SQL Lighthouse in this regard – a free little tool currently in beta for monitoring when database states drift.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 23 Sep 2015 18:15:17 +0530</pubDate>
+        <link>http://theremotelab.me/how-do-databases-fit-into-devops</link>
+        <guid isPermaLink="true">http://theremotelab.me/how-do-databases-fit-into-devops</guid>
+        
+        
+        <category>conferences</category>
+        
+      </item>
+    
+  </channel>
+</rss>
