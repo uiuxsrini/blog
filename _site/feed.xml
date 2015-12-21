@@ -1,123 +1,248 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Remote Lab</title>
-    <description>We&#39;re on a mission to make DevOps hassle-free.</description>
-    <link>http://theremotelab.me/</link>
-    <atom:link href="http://theremotelab.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Sep 2015 02:37:02 +0530</pubDate>
-    <lastBuildDate>Sat, 26 Sep 2015 02:37:02 +0530</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <title>&amp;lt; front-end-folks /&amp;gt;</title>
+    <description>A Material Design and jekyll inspired Blog</description>
+    <link>/blog/</link>
+    <atom:link href="/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 21 Dec 2015 19:52:27 +0530</pubDate>
+    <lastBuildDate>Mon, 21 Dec 2015 19:52:27 +0530</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
     
       <item>
-        <title>DevOps is For Life, Not Just For Techies</title>
-        <description>&lt;p&gt;DevOps is a philosophy; it’s a way of life that you can use to transform your business methodology, improve your customer communications and revolutionise your results.&lt;/p&gt;
+        <title>Why Passphrases Are More User-Friendly Than Passwords</title>
+        <author>Adhikari Srinivasa Kumar</author>
+        <description>&lt;p&gt;A user’s account on a website is like a house. The password is the key, and logging in is like walking through the front door. When a user can’t remember their password, it’s like losing their keys. When a user’s account is hacked, it’s like their house is getting broken into.&lt;/p&gt;
 
-&lt;p&gt;We’ve collated some fundamental DevOps principles that you can apply to all your business practises to streamline processes, revolutionise thinking and improve internal and external communications: Keep CALMS and use DevOps.&lt;/p&gt;
+&lt;p&gt;Nearly half of Americans (47%) have had their account hacked in the last year alone. Are web designers and developers taking enough measures to prevent these problems? Or do we need to rethink passwords?&lt;/p&gt;
 
-&lt;p&gt;Culture – Let yourself Fail&lt;/p&gt;
+&lt;h5 id=&quot;compromising-security&quot;&gt;COMPROMISING SECURITY&lt;/h5&gt;
 
-&lt;p&gt;“The one who falls and gets up is stronger than the one who never fell.” It may be a cliché, but we really do learn from our mistakes. Don’t be afraid to try things, but learn to fail safely and make sure you learn from things that don’t work out.&lt;/p&gt;
+&lt;p&gt;On most websites, you need to create an account to do more than browse. Users will create many passwords in their lifetime. But remembering them all is no easy task. They could use the same password for every account, but that makes them more vulnerable to attack if one gets compromised. They could use passwords that are easy to remember, but an easy password is an easy target for brute-force hacking.&lt;/p&gt;
 
-&lt;p&gt;Constant testing, re-evaluation and development is the only way to keep up with the modern world and this can be applied to software development, marketing strategies, personal goals – anything!&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;../_assets/images/usability.jpg&quot; alt=&quot;usability&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Automation – Focus on your business&lt;/p&gt;
+&lt;p&gt;They could jot down or store all of their passwords in case they forget, but if someone gets ahold of that paper or file, then all of their accounts will be compromised. As well, it’s easy to misplace papers and files and inconvenient to pull them out every time you want to log in somewhere.&lt;/p&gt;
 
-&lt;p&gt;Modern technology allows you to automate loads of areas of your life to free up your time – without it, juggling work, family, friends and the other components of contemporary culture would be impossible.&lt;/p&gt;
+&lt;p&gt;No matter what they do, when users create a password with usability in mind, they often end up compromising security.&lt;/p&gt;
 
-&lt;p&gt;Automating systems and processes at work not only eliminates the risk of human error, but it frees up time to focus on the running of your business. Without having to spend man-power on monitoring, testing and updating your software you can focus more time into making your business the best it can be. Automation also means that your release processes are consistent, reliable and specific to your needs.&lt;/p&gt;
+&lt;h5 id=&quot;compromising-usability&quot;&gt;COMPROMISING USABILITY&lt;/h5&gt;
 
-&lt;p&gt;Lean – Cut down on waste&lt;/p&gt;
+&lt;p&gt;To keep their accounts secure, users could create passwords that meet the maximum requirements of a “strong” password. Such a password would include:&lt;/p&gt;
 
-&lt;p&gt;Originally devised and initiated by Toyota ‘Lean’ is a way of working that improves flow and eliminates waste: making obvious what adds value by reducing everything else. Implementing a Lean system in your processes means discarding superfluous, ‘wasteful’ activity and focusing on efficiently achieving your end result. These processes also reduce costs and production time as well as improving productivity.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;numbers,&lt;/li&gt;
+  &lt;li&gt;lowercase letters,&lt;/li&gt;
+  &lt;li&gt;capital letters,&lt;/li&gt;
+  &lt;li&gt;punctuation symbols,&lt;/li&gt;
+  &lt;li&gt;and a certain number of characters.&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;p&gt;This is ideal for efficiency in and out of the work environment – whether your new year’s resolution is to be more productive in your spare time, to recycle more or to get fit, try applying Lean principles to your day-to-day goals!&lt;/p&gt;
+&lt;p&gt;And it should not include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;a dictionary word,&lt;/li&gt;
+  &lt;li&gt;a common password,&lt;/li&gt;
+  &lt;li&gt;or words found in your name, username or company name.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;../_assets/images/security.png&quot; alt=&quot;security&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Coming up with a password that meets these requirements would take most users a long time. You risk losing registrations if they take longer than expected. When a user finally comes up with a password, it’s often so random that it’s almost impossible to remember. This increases the chance that the user will forget and be unable to log in. Also frustrating is when a user is locked out of their account after trying too many passwords.&lt;/p&gt;
+
+&lt;p&gt;Typing passwords isn’t easy either, much less remembering them. Users are prone to error when they have to hold the Shift key to type capital letters or symbols. A password that’s secure but not usable won’t do users any good.&lt;/p&gt;
+
+&lt;h5 id=&quot;passphrases-a-change-for-the-better&quot;&gt;Passphrases: A Change For The Better&lt;/h5&gt;
+
+&lt;p&gt;Balancing security and usability is a must, but passwords today don’t cut it. Websites need to change for the better and need to upgrade from passwords to passphrases.
+Passwords and passphrases serve the same purpose. But passwords are generally short, hard to remember and easier to crack. Passphrases are easier to remember and to type, and they’re considered more secure due to their length and because you don’t need to write them down.&lt;/p&gt;
+
+&lt;h5 id=&quot;why-passphrases-are-more-secure&quot;&gt;Why Passphrases Are More Secure&lt;/h5&gt;
+
+&lt;p&gt;LONGER REQUIREMENT STOPS BRUTE-FORCE ATTACKS&lt;/p&gt;
+
+&lt;p&gt;Most passwords have a minimum requirement of 8 characters. But most passphrases have a minimum requirement of 16 characters. This greater length provides more security because it takes far longer to crack.&lt;/p&gt;
+
+&lt;p&gt;Increasing character length increases the total number of possible correct passwords. The longer a password is, the longer a brute-force program will take to guess the right one. Let’s put this to the test by comparing a complex password with a simple passphrase using a sophisticated password checker.&lt;/p&gt;
+
+&lt;p&gt;The complex password will not have any dictionary words and will contain numbers, capital letters and symbols, making it as strong as can be. The simple passphrase will contain dictionary words and only lowercase letters, making it as weak as can be.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../_assets/images/brute-force-attack.png&quot; alt=&quot;brute-force&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When comparing the two, we can see that the simple weak passphrase is impossible to brute-force hack. But the strong, complex password would take less than two years to hack. You would expect the password to take longer than that because of its high character complexity. That goes to show that character length is what protects users from brute-force attacks, not character complexity.&lt;/p&gt;
+
+&lt;h5 id=&quot;multiple-words-stop-dictionary-attacks&quot;&gt;MULTIPLE WORDS STOP DICTIONARY ATTACKS&lt;/h5&gt;
+
+&lt;p&gt;Brute force isn’t the only way to hack a password. Hackers can also use dictionary attacks. But a passphrase will protect users against dictionary attacks more than a password. Although using a password that contains only dictionary words is not recommended, it is still common and can get hacked easily. But if users were to use only dictionary words in a passphrase, they would stay safe from this type of attack.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../_assets/images/dictionary-attack.png&quot; alt=&quot;dictionary&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Most dictionary passwords contain one or two words. A dictionary attack is more likely to succeed here because of the limited number of words in the dictionary. Even an uncommon dictionary word wouldn’t stop a dictionary attack. A dictionary passphrase would contain at least five words. The virtually infinite number of word combinations makes it impossible for a dictionary attack to succeed.&lt;/p&gt;
+
+&lt;h5 id=&quot;multiple-parts-of-speech-make-it-harder-to-guess&quot;&gt;MULTIPLE PARTS OF SPEECH MAKE IT HARDER TO GUESS&lt;/h5&gt;
+
+&lt;p&gt;Passwords that are easy to guess often contain a single piece of personal information: the user’s name, birthdate or pet, their favorite color, food or place, etc. All of these nouns easily meet the character-length requirement for a password.&lt;/p&gt;
+
+&lt;p&gt;The longer character-length requirement of a passphrase prevents users from using personal information. A single noun isn’t enough to meet the requirement. This forces users to add other parts of speech to their passphrase, making it harder to guess.&lt;/p&gt;
+
+&lt;h5 id=&quot;why-passphrases-are-more-usable&quot;&gt;Why Passphrases Are More Usable&lt;/h5&gt;
+
+&lt;p&gt;PHRASES ARE EASIER TO REMEMBER THAN RANDOM CHARACTERS&lt;/p&gt;
+
+&lt;p&gt;It’s easier to recall a phrase than random characters. Phrases are meaningful and relatable. This is why users are able to remember a passphrase more than a password. When users create a password, they have to meet the form’s password policy. Many forms do not allow dictionary words to keep users safe from dictionary attacks. Users have no choice but to add randomness to their password.&lt;/p&gt;
+
+&lt;p&gt;But a random non-dictionary word is the hardest for users to remember. Many will opt to use a word and add random characters within it. But that’s still hard to remember because the random characters could go in many places.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../_assets/images/using-phrases.png&quot; alt=&quot;brute&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Adding complexity to a passphrase is easier because you can add elements between words. This makes the randomness easier to remember because there are fewer places between words. A passphrase doesn’t need the high level of randomness of passwords. A little complexity goes a long way because of the security that a passphrase brings. Some people use the first letter of each word in a sentence as their password. This is much more memorable but still not as secure as a passphrase.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../_assets/images/character-length.png&quot; alt=&quot;brute&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For example, the sentence “I lived in Germany for two years” could be turned into “iliGf2yrs.” Even with a capital letter, a number and random letters, it’s still vulnerable to brute-force hacking. The same sentence spelled out as the passphrase “ilivedinGermanyfor2yrs” would be unhackable. The difference in character length has a huge impact on security.&lt;/p&gt;
+
+&lt;h5 id=&quot;words-are-allowed&quot;&gt;WORDS ARE ALLOWED&lt;/h5&gt;
+
+&lt;p&gt;Finding a password that doesn’t include a dictionary word is the toughest password requirement for users to meet. Carnegie Mellon’s research data show that “creating a password is significantly more difficult under stricter password policies, particularly those involving dictionary checks.”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../_assets/images/using-words.png&quot; alt=&quot;brute&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Coming up with a random non-dictionary word is hard to do and hard to remember. Passphrases don’t need strict dictionary checks. Words are allowed as long as they meet the passphrase’s length requirement. The compromise of usability for security in password policies is too wide a gap to ignore. Passphrase policies balance both, minimizing registration abandonment or user frustration.&lt;/p&gt;
+
+&lt;h5 id=&quot;passphrase-policies-are-less-strict-in-registration-forms&quot;&gt;PASSPHRASE POLICIES ARE LESS STRICT IN REGISTRATION FORMS&lt;/h5&gt;
+
+&lt;p&gt;Users often get stuck on registration pages when they can’t create a password that meets the website’s policy. This happens because password policies have too many requirements, creating frustration in users and leading them to abandon forms.&lt;/p&gt;
+
+&lt;p&gt;Password Policy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;has at least 8 characters&lt;/li&gt;
+  &lt;li&gt;includes capital and lowercase letters&lt;/li&gt;
+  &lt;li&gt;includes one or more digits&lt;/li&gt;
+  &lt;li&gt;includes one or more symbols (@, #, $, etc.)&lt;/li&gt;
+  &lt;li&gt;prohibits words found in dictionary&lt;/li&gt;
+  &lt;li&gt;prohibits user’s personal information&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Passphrase Policy:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;has at least 16 characters&lt;/li&gt;
+  &lt;li&gt;includes a capital letter or number&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Passphrase policies don’t need to be as strict to give users security. The only requirement a passphrase needs is to be 16 character or longer. The researchers found that “a 16-character minimum with no additional requirements provides the most entropy while proving more usable on many measures than the strongest alternative.” This helps users to create accounts more easily while maintaining security.&lt;/p&gt;
+
+&lt;p&gt;Password policies vary between websites. This forces users to create a different password to meet each website’s requirements. Users end up with a long list of different passwords to manage. Passphrase policies wouldn’t vary between websites, though. All that is needed for maximum security is a length of 16 or more characters and a capital letter or number.&lt;/p&gt;
+
+&lt;h5 id=&quot;what-websites-should-do&quot;&gt;What Websites Should Do&lt;/h5&gt;
+
+&lt;p&gt;REPLACE “WORD” WITH “PHRASE”&lt;/p&gt;
+
+&lt;p&gt;The first step is to take the “word” out of password. The term “password” gives users the impression that the website expects them to use a word. But a word isn’t secure under any circumstances.&lt;/p&gt;
+
+&lt;p&gt;Change the user’s understanding by using the term “passphrase” instead. This tells them that you expect a phrase, not a word. By making this expectation clearer, users will know that a phrase is more secure than a word.&lt;/p&gt;
+
+&lt;h5 id=&quot;make-the-policy-clear&quot;&gt;MAKE THE POLICY CLEAR&lt;/h5&gt;
+
+&lt;p&gt;Most users are accustomed to seeing password policies. Let them know that a passphrase policy is different by displaying the requirements upon registration. Pop up a tooltip over the passphrase text field.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;../_assets/images/passphrase-validation.png&quot; alt=&quot;passphrase-validation&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Don’t make users have to count 16 characters when creating a passphrase. Do it for them by designing a tooltip to validate their input. When the user meets the requirement, a green checkmark should appear next to the field.&lt;/p&gt;
+
+&lt;p&gt;The good news is that switching to passphrases doesn’t require a technical overhaul. It’s as simple as introducing the concept to users and requiring a higher character length.&lt;/p&gt;
+
+&lt;p&gt;The state of passwords today causes more headache than happiness. Passphrases are a better alternative because they are more secure and usable. A few websites out there enforce passphrases. More should follow suit in order to decrease account breaches and user frustration. No user should feel like they’ve lost their keys or had their house broken into.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 26 Sep 2015 15:55:11 +0530</pubDate>
-        <link>http://theremotelab.me/devops-is-for-life-not-just-for-techies</link>
-        <guid isPermaLink="true">http://theremotelab.me/devops-is-for-life-not-just-for-techies</guid>
+        <pubDate>Mon, 21 Dec 2015 00:00:00 +0530</pubDate>
+        <link>/blog/passphrases/</link>
+        <guid isPermaLink="true">/blog/passphrases/</guid>
         
+        <category>sample post</category>
         
-        <category>conferences</category>
         
       </item>
     
       <item>
-        <title>What’s new at DevOps Enterprise Summit 2015</title>
-        <description>&lt;p&gt;We’re really excited about the programming we have planned for the DevOps Enterprise Summit 2015. Here are some things you may have expected: We will bring back more of your favorite presenters Tell new chapters in stories of transformation and acceleration Introduce an exciting new set of top experts, case studies, and practitioner-led research We also have a really unexpected surprise&lt;/p&gt;
+        <title>Angular Vs Polymer</title>
+        <author>Adhikari Srinivasa Kumar</author>
+        <description>&lt;p&gt;A year after pulling back the curtains on the Polymer Project, Google’s taken part of I/O 2014 to demo what the code can do. Right on cue, the web is abuzz with discussion comparing Polymer to other popular web frameworks, and it’s no surprise since it bears some resemblance to Google’s very own AngularJS. Join me after the break as I introduce Polymer and explore just how it relates to Angular.&lt;/p&gt;
 
-&lt;p&gt;During last year’s event, we established that many large organizations were already on the path to adopting DevOps practices, and our speakers shared their struggles from the stage.&lt;/p&gt;
+&lt;h5 id=&quot;what-is-polymer&quot;&gt;What is Polymer?&lt;/h5&gt;
 
-&lt;p&gt;After the event, we wanted to learn more about what the biggest roadblocks were for our attendees in their own companies, so what did we do?&lt;/p&gt;
+&lt;p&gt;Polymer is a library for creating Web Components, which are a set of W3C standards and upcoming browser APIs for defining your own custom HTML elements. With the help of polyfills and sugar, it can create these custom elements and bring Web Component support to browsers that don’t play nice with the standard just yet.&lt;/p&gt;
 
-&lt;p&gt;We sent a post-conference survey, asking last year’s attendees to tell us their biggest challenges as they returned back to their companies.&lt;/p&gt;
+&lt;p&gt;Custom elements? Huh? They look like this:&lt;/p&gt;
 
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;google-map&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;lat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;37&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.790&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;long&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;-122&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.390&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;google-map&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Seem familiar? They’re are very similar to Angular directives. As you’d expect, the result would be a Google Map plugged directly into your webpage.&lt;/p&gt;
+
+&lt;h5 id=&quot;so-how-does-polymer-differ-from-angular&quot;&gt;So, how does Polymer differ from Angular?&lt;/h5&gt;
+
+&lt;p&gt;Angular is a complete framework for building webapps, whereas Polymer is a library for creating Web Components. Those components, however, can then be used to build a webapp.&lt;/p&gt;
+
+&lt;p&gt;Angular has high-level APIs for things like services, routing, server communication and the like. Polymer, on the other hand, doesn’t provide these things except as separate web components from their core library. Instead, it focuses on allowing you to create rich, powerful, reusable web components, which could be used to build webapps like those built with Angular. In the future, the lines could be blurred further as frameworks like Angular may leverage Web Components.&lt;/p&gt;
+
+&lt;p&gt;Even though Angular and Polymer aim to do different things, there is currently some overlap. Web components and Angular’s element directives are very similar, and if there’s a comparison to be made it should be between Polymer’s Custom Elements and Angular’s directives.&lt;/p&gt;
+
+&lt;h5 id=&quot;angular-directives-vs-custom-elements&quot;&gt;Angular directives vs. Custom Elements&lt;/h5&gt;
+
+&lt;p&gt;Polymer (more specifically Shadow DOM) provides the ability to compose encapsulated JS, CSS, and HTML as Custom Elements, much like Angular element directives.&lt;/p&gt;
+
+&lt;p&gt;Angular directives are conceptually similar to Custom Elements but they are implemented without the use of the Web Components APIs. Angular directives are a way to build custom elements, but Polymer and the Web Components specification are the standards-based way to do it.&lt;/p&gt;
+
+&lt;p&gt;Similar to Angular, Polymer elements provide templating and bi-directional data binding. However, they also provide new functionality such as the Shadow DOM, which enables encapsulation of CSS. Angular directives don’t have any notion of style encapsulation, but Angular is expected incorporate that functionality eventually.&lt;/p&gt;
+
+&lt;p&gt;In the future, both will be used together. Because custom elements will be the DOM, they’ll work seamlessly with frameworks like Angular. The Angular team has said they will eventually use the underlying Web Components APIs (Custom Elements, Shadow DOM, etc.).&lt;/p&gt;
+
+&lt;p&gt;Polymer Custom Element:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;polymer-element&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;user-gravatar&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;attributes&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;secure&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.gravatar.com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;avatar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;Polymer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;user-gravatar&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;py&quot;&gt;ready&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gid&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;polymer&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Angular directive:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;  &lt;span class=&quot;nt&quot;&gt;app&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.directive&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;user-gravatar&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;md5&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;py&quot;&gt;restrict&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&#39;E&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;attrs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;n&quot;&gt;scope&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;gid&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;md5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;attrs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;template&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;img&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;src&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;://&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;gravatar&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;.com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;avatar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&#39;&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;err&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;]);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;As you can see, Polymer uses a declarative syntax (another element!) to create custom elements. Both accomplish the same thing but using different approaches.&lt;/p&gt;
+
+&lt;h5 id=&quot;can-angular-and-polymer-be-used-together&quot;&gt;Can Angular and Polymer be used together?&lt;/h5&gt;
+
+&lt;p&gt;Yes! You can use Polymer custom elements inside of an Angular app. Web components are just regular DOM elements, so they have attributes, emit events, and can contain child elements.&lt;/p&gt;
+
+&lt;h5 id=&quot;what-about-the-future-of-both-projects&quot;&gt;What about the future of both projects?&lt;/h5&gt;
+
+&lt;p&gt;Angular and Polymer will remain separate projects with their own goals. That said, Angular has announced they’ll eventually move to use the Web Components APIs in their underlying architecture.&lt;/p&gt;
+
+&lt;p&gt;For Angular 2.0, Web Components will work seamlessly within Angular apps and directives, and components written in Angular will export to Web Components to be used by Polymer or other libraries.&lt;/p&gt;
+
+&lt;p&gt;As the Web Components specification matures and browsers implement the various APIs, Polymer elements will utilize native browser functionality instead of
+polyfills. Eventually, once browser support has improved, Polymer’s polyfill layer can be gracefully removed.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 26 Sep 2015 15:15:36 +0530</pubDate>
-        <link>http://theremotelab.me/what's-new-at-DevOps</link>
-        <guid isPermaLink="true">http://theremotelab.me/what's-new-at-DevOps</guid>
+        <pubDate>Mon, 21 Dec 2015 00:00:00 +0530</pubDate>
+        <link>/blog/Angular-Vs-Polymer/</link>
+        <guid isPermaLink="true">/blog/Angular-Vs-Polymer/</guid>
         
-        
-        <category>conferences</category>
-        
-      </item>
-    
-      <item>
-        <title>DevOps and Automating The Repayment Of Technical Debet</title>
-        <description>&lt;p&gt;One of the common things we find in Enterprise organisations looking to move to a DevOps model is high levels of technical debt.&lt;/p&gt;
-
-&lt;p&gt;To be more accurate, they are caught in the “vicious cycle of technical debt” to the point that trying to ship anything in a rapid, agile way is nearly impossible. It’s the Greek Debt Crisis level of technical debt.&lt;/p&gt;
-
-&lt;p&gt;In many cases layers and layers of process and management have been added into the software development lifecycle in order to try and fix the symptoms of the problem (low quality releases, bugs in production, unstable environments, poor performance etc) but they are just Band-Aids on the underlying issues.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 26 Sep 2015 15:15:36 +0530</pubDate>
-        <link>http://theremotelab.me/Devops-and-Automating</link>
-        <guid isPermaLink="true">http://theremotelab.me/Devops-and-Automating</guid>
-        
-        
-        <category>conferences</category>
-        
-      </item>
-    
-      <item>
-        <title>DevOps and The Digital Supply Chain</title>
-        <description>&lt;p&gt;What is the “Digital Supply Chain” and why is it important to your organisation and to DevOps as a practice?&lt;/p&gt;
-
-&lt;p&gt;The concept of the “Digital Supply Chain” is a different way of looking at the SDLC and the Continuous Delivery “pipeline” that we feel makes it easier for traditional organisations to understand the criticality of software delivery (and by extension DevOps) in the modern world.&lt;/p&gt;
-
-&lt;p&gt;Any organisation that deals with physical goods understands the concept of the supply chain. They are intimately familiar with ideas like supply chain management, supply chain optimisation and, most importantly, they understand the economics of inventory in the supply chain e.g the carrying cost of inventory.&lt;/p&gt;
-
-&lt;p&gt;So what is the “Digital Supply Chain”?&lt;/p&gt;
-
-&lt;p&gt;The current definitions of the digital supply chain are anchored in the “New Media” sector and focus on digital assets like music, video etc&lt;/p&gt;
-
-&lt;p&gt;“The “digital supply chain” is a “new media” term which encompasses the process of the delivery of digital media, be it music or video, by electronic means, from the point of origin (content provider) to destination (consumer).” – Wikipedia&lt;/p&gt;
-</description>
-        <pubDate>Thu, 24 Sep 2015 12:45:37 +0530</pubDate>
-        <link>http://theremotelab.me/devops-and-the-digital-supply-chain</link>
-        <guid isPermaLink="true">http://theremotelab.me/devops-and-the-digital-supply-chain</guid>
-        
-        
-        <category>conferences</category>
-        
-      </item>
-    
-      <item>
-        <title>How Do Databases Fit Into Devops ?</title>
-        <description>&lt;p&gt;“How do DBAs fit into a DevOps world?”&lt;/p&gt;
-
-&lt;p&gt;If we look at how the roles and responsibilities break down, it looks like DBAs are simply Ops specialists. Does that mean that database developers and DBAs should be blended in a single DBDevOps team? Having two flavours of DevOps team running side-by-side on the same overall application feels like a poor compromise, but are databases special enough to warrant it?&lt;/p&gt;
-
-&lt;p&gt;Alternatively, does this mean that the DBA dissolves into just another Ops facet of the overall team? Given the amount of specialist training and knowledge we so often see invested in DBAs, it’s hard to imagine how a team could be high-performing without some degree of specialization when it comes to managing data. This could be the straw that breaks the Full-Stack Engineers back, or it could be that you can actually get a very long way before you have to dip into the skills of a true specialist. I’m sure that, like so many questions, the answer is “It depends”&lt;/p&gt;
-
-&lt;p&gt;Either way, the fact that we’re even talking about Database Lifecycle Management (and uttering sentences which include both “database” and “DevOps”) suggests that software engineering as a whole is maturing at the pace of Moore’s Law, and starting to embrace the ideas that were obvious to W. Deming. Not only are we tackling these questions thoughtfully, but we’re also being more aware of the practices that have emerged in software engineering. As a result of that maturity, we’re also starting to see tools emerging which are actually fit to be used in a DevOps environment. In the case of databases, part of that is about treating them as stateful artifacts, and I particularly like Redgate’s SQL Lighthouse in this regard – a free little tool currently in beta for monitoring when database states drift.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 23 Sep 2015 18:15:17 +0530</pubDate>
-        <link>http://theremotelab.me/how-do-databases-fit-into-devops</link>
-        <guid isPermaLink="true">http://theremotelab.me/how-do-databases-fit-into-devops</guid>
-        
-        
-        <category>conferences</category>
         
       </item>
     

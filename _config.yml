@@ -1,34 +1,33 @@
 # Site settings
-title: The Remote Lab 
-email: hello@theremotelab.com
-description: We're on a mission to make DevOps hassle-free.
-url: "http://theremotelab.me" # the base hostname & protocol for your site
-twitter_username: viren
-paginate: 3
+title: '&lt; front-end-folks /&gt;'
+email: frontendfolks@gmail.com
+description: A Material Design and jekyll inspired Blog
+footer_text: 'Made with <span class="icon-favorite pulse"></span> by <a href="http://frontendfolks.com">Adhikari Srinivasa Kumar</a>.'
+baseurl: "/blog"
+
+# Social usernames
+github_username:  uiuxsrini
+email: frontendfolks@gmail.com
 
 # Build settings
 markdown: kramdown
-permalink: /:title
+include: ['_pages', '_assets']
+exculde: ['.sass_cache', 'README.md']
+sass:
+  sass_dir: '_assets/_sass'
+permalink: "/:title/"
+comments: true
 
-#Default settings
+
+collections:
+  authors:
+  projects:
+
+# Defaults
 defaults:
   -
     scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      path: "_pages"
     values:
-      author: Virendra Bhalothia
-      layout: "post"
-      category: conferences
-      comments: true
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "pages" # previously `post` in Jekyll 2.2.
-    values:
-      layout: "page"
-
-
-
-
-
+      is_in_nav: true
+      

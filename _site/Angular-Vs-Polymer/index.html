@@ -1,0 +1,172 @@
+  <!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width initial-scale=1">
+
+  <title>Angular Vs Polymer</title>
+  <meta name="description" content="A year after pulling back the curtains on the Polymer Project, Google’s taken part of I/O 2014 to demo what the code can do. Right on cue, the web is abuzz w...">
+  <link rel="shortcut icon" href="/blog/favicon.ico">
+  <link rel="stylesheet" href="/blog/_assets/css/main.css">
+  <link rel="stylesheet" href="/blog/_assets/css/materialize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="canonical" href="/blog/Angular-Vs-Polymer/">
+  <link rel="alternate" type="application/atom+xml" title="&lt; front-end-folks /&gt;" href="/blog/feed.xml" />
+</head>
+
+
+  <body>
+
+    
+
+    <div id="bg-blur"></div>
+<div class="content-wrap">
+<header>
+  <div class="wrapper">
+    
+    <h1>Angular Vs Polymer</h1>
+  </div>
+</header>
+
+  <nav>
+    
+    <div class="nav-title">&lt; front-end-folks /&gt;</div>
+    
+  </nav>
+
+
+    <a class="paper-button btn-down" href="/blog/"></a>
+
+    <section class="page-content">
+        <p>A year after pulling back the curtains on the Polymer Project, Google’s taken part of I/O 2014 to demo what the code can do. Right on cue, the web is abuzz with discussion comparing Polymer to other popular web frameworks, and it’s no surprise since it bears some resemblance to Google’s very own AngularJS. Join me after the break as I introduce Polymer and explore just how it relates to Angular.</p>
+
+<h5 id="what-is-polymer">What is Polymer?</h5>
+
+<p>Polymer is a library for creating Web Components, which are a set of W3C standards and upcoming browser APIs for defining your own custom HTML elements. With the help of polyfills and sugar, it can create these custom elements and bring Web Component support to browsers that don’t play nice with the standard just yet.</p>
+
+<p>Custom elements? Huh? They look like this:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">&lt;</span><span class="nt">google-map</span> <span class="nt">lat</span><span class="o">=</span><span class="err">"</span><span class="nt">37</span><span class="nc">.790</span><span class="err">"</span> <span class="nt">long</span><span class="o">=</span><span class="err">"</span><span class="nt">-122</span><span class="nc">.390</span><span class="err">"</span><span class="o">&gt;&lt;/</span><span class="nt">google-map</span><span class="o">&gt;</span></code></pre></figure>
+
+<p>Seem familiar? They’re are very similar to Angular directives. As you’d expect, the result would be a Google Map plugged directly into your webpage.</p>
+
+<h5 id="so-how-does-polymer-differ-from-angular">So, how does Polymer differ from Angular?</h5>
+
+<p>Angular is a complete framework for building webapps, whereas Polymer is a library for creating Web Components. Those components, however, can then be used to build a webapp.</p>
+
+<p>Angular has high-level APIs for things like services, routing, server communication and the like. Polymer, on the other hand, doesn’t provide these things except as separate web components from their core library. Instead, it focuses on allowing you to create rich, powerful, reusable web components, which could be used to build webapps like those built with Angular. In the future, the lines could be blurred further as frameworks like Angular may leverage Web Components.</p>
+
+<p>Even though Angular and Polymer aim to do different things, there is currently some overlap. Web components and Angular’s element directives are very similar, and if there’s a comparison to be made it should be between Polymer’s Custom Elements and Angular’s directives.</p>
+
+<h5 id="angular-directives-vs-custom-elements">Angular directives vs. Custom Elements</h5>
+
+<p>Polymer (more specifically Shadow DOM) provides the ability to compose encapsulated JS, CSS, and HTML as Custom Elements, much like Angular element directives.</p>
+
+<p>Angular directives are conceptually similar to Custom Elements but they are implemented without the use of the Web Components APIs. Angular directives are a way to build custom elements, but Polymer and the Web Components specification are the standards-based way to do it.</p>
+
+<p>Similar to Angular, Polymer elements provide templating and bi-directional data binding. However, they also provide new functionality such as the Shadow DOM, which enables encapsulation of CSS. Angular directives don’t have any notion of style encapsulation, but Angular is expected incorporate that functionality eventually.</p>
+
+<p>In the future, both will be used together. Because custom elements will be the DOM, they’ll work seamlessly with frameworks like Angular. The Angular team has said they will eventually use the underlying Web Components APIs (Custom Elements, Shadow DOM, etc.).</p>
+
+<p>Polymer Custom Element:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css"><span class="o">&lt;</span><span class="nt">polymer-element</span> <span class="nt">name</span><span class="o">=</span><span class="err">"</span><span class="nt">user-gravatar</span><span class="err">"</span> <span class="nt">attributes</span><span class="o">=</span><span class="err">"</span><span class="nt">email</span><span class="err">"</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nt">template</span><span class="o">&gt;</span>
+    <span class="o">&lt;</span><span class="nt">img</span> <span class="nt">src</span><span class="o">=</span><span class="err">"</span><span class="nt">https</span><span class="o">://</span><span class="nt">secure</span><span class="nc">.gravatar.com</span><span class="o">/</span><span class="nt">avatar</span><span class="o">/</span><span class="err">"</span> <span class="o">/&gt;</span>
+  <span class="o">&lt;/</span><span class="nt">template</span><span class="o">&gt;</span>
+  <span class="o">&lt;</span><span class="nt">script</span><span class="o">&gt;</span>
+    <span class="nt">Polymer</span><span class="o">(</span><span class="err">'</span><span class="nt">user-gravatar</span><span class="err">'</span><span class="o">,</span> <span class="p">{</span>
+      <span class="py">ready</span><span class="p">:</span> <span class="n">function</span><span class="p">()</span> <span class="err">{</span>
+        <span class="n">this</span><span class="p">.</span><span class="n">gid</span> <span class="err">=</span> <span class="n">md5</span><span class="p">(</span><span class="n">this</span><span class="p">.</span><span class="n">email</span><span class="p">);</span>
+      <span class="p">}</span>
+    <span class="err">}</span><span class="o">);</span>
+  <span class="o">&lt;/</span><span class="nt">script</span><span class="o">&gt;</span>
+<span class="o">&lt;/</span><span class="nt">polymer</span><span class="o">&gt;</span></code></pre></figure>
+
+<p>Angular directive:</p>
+
+<figure class="highlight"><pre><code class="language-css" data-lang="css">  <span class="nt">app</span><span class="nc">.directive</span><span class="o">(</span><span class="err">'</span><span class="nt">user-gravatar</span><span class="err">'</span><span class="o">,</span> <span class="o">[</span><span class="err">'</span><span class="nt">md5</span><span class="err">'</span><span class="o">,</span> <span class="nt">function</span><span class="o">()</span> <span class="p">{</span>
+  <span class="err">return</span> <span class="err">{</span>
+    <span class="py">restrict</span><span class="p">:</span> <span class="s2">'E'</span><span class="p">,</span>
+    <span class="n">link</span><span class="p">:</span> <span class="n">function</span><span class="p">(</span><span class="n">scope</span><span class="p">,</span> <span class="n">element</span><span class="p">,</span> <span class="n">attrs</span><span class="p">)</span> <span class="err">{</span>
+      <span class="n">scope</span><span class="p">.</span><span class="n">gid</span> <span class="err">=</span> <span class="n">md5</span><span class="p">(</span><span class="n">attrs</span><span class="p">.</span><span class="n">email</span><span class="p">);</span>
+    <span class="p">}</span><span class="o">,</span>
+    <span class="nt">template</span><span class="o">:</span> <span class="err">'</span><span class="o">&lt;</span><span class="nt">img</span> <span class="nt">src</span><span class="o">=</span><span class="err">"</span><span class="nt">https</span><span class="o">://</span><span class="nt">gravatar</span><span class="nc">.com</span><span class="o">/</span><span class="nt">avatar</span><span class="o">/</span><span class="err">"</span> <span class="o">/&gt;</span><span class="err">'</span>
+  <span class="err">}</span><span class="o">;</span>
+  <span class="err">}</span><span class="o">]);</span></code></pre></figure>
+
+<p>As you can see, Polymer uses a declarative syntax (another element!) to create custom elements. Both accomplish the same thing but using different approaches.</p>
+
+<h5 id="can-angular-and-polymer-be-used-together">Can Angular and Polymer be used together?</h5>
+
+<p>Yes! You can use Polymer custom elements inside of an Angular app. Web components are just regular DOM elements, so they have attributes, emit events, and can contain child elements.</p>
+
+<h5 id="what-about-the-future-of-both-projects">What about the future of both projects?</h5>
+
+<p>Angular and Polymer will remain separate projects with their own goals. That said, Angular has announced they’ll eventually move to use the Web Components APIs in their underlying architecture.</p>
+
+<p>For Angular 2.0, Web Components will work seamlessly within Angular apps and directives, and components written in Angular will export to Web Components to be used by Polymer or other libraries.</p>
+
+<p>As the Web Components specification matures and browsers implement the various APIs, Polymer elements will utilize native browser functionality instead of
+polyfills. Eventually, once browser support has improved, Polymer’s polyfill layer can be gracefully removed.</p>
+
+
+
+
+<div id="post-nav" class="clearfix">
+  
+  
+  <a rel="next" id="next_link" href="/blog/passphrases/">/blogWhy Passphrases Are More User-Friendly Than Passwords &raquo;</a>
+    
+</div>
+<hr>
+<div class="comments">
+
+<div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//frontendfolks.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+</div>
+    </section>
+
+    <footer>
+  <ul class="social">
+  
+  <li><a href="http://github.com/uiuxsrini"><span class="icon-github"></span></a></li>
+  
+  
+  <li><a href="mailto:frontendfolks@gmail.com"><span class="icon-drafts"></span></a></li>
+  </ul>
+  <p>Made with <span class="icon-favorite pulse"></span> by <a href="http://frontendfolks.com">Adhikari Srinivasa Kumar</a>.</p>
+</footer>
+
+</div> <!-- End content wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="/blog/_assets/js/main.js"></script>
+
+
+  </body>
+
+</html>

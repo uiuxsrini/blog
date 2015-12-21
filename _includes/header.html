@@ -1,25 +1,14 @@
-<!-- Capture and store a URL -->
-{% capture location %}{{ page.url | split:'/' }}{% endcapture %} 
-<header class="main-header" role="banner">
-  <div class="grid">
-    <div class="grid__col--12">
-      <a class="site-logo" href="/" title="Webconfs.me – Home">
-        <img class="img--logo" src="../img/trl.png" height="30" width="90">
-      </a>
-   <!--   <nav class="navbar" role="navigation">
-        <ul class="nav">
-        {% for page in site.pages %}
-          <!-- Compare the page title to the URL 
-          {% assign current = page.title | downcase %}
-          
-          {% if page.title %}
-          <li {% if location == current %} class="nav__item--current" {% else %} class="nav__item" {% endif %}>
-            <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          </li>
-          {% endif %}          
-        {% endfor %} 
-        </ul>
-      </nav>-->
-    </div>
+<div id="bg-blur"></div>
+<div class="content-wrap">
+<header>
+  <div class="wrapper">
+    
+    {% if page.title %}{% if page.link %}<a class="linked-post" href="{{ page.link }}">{% endif %}<h1>{% if page.link %}<span class="icon-call-made"></span>{% endif %}{{ page.title }}</h1>{% if page.link %}</a>{% endif %}{% else %}{% endif %}
   </div>
 </header>
+
+  <nav>
+    
+    <div class="nav-title">{{ site.title }}</div>
+    
+  </nav>
